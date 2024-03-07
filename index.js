@@ -10,7 +10,7 @@ app.get('/' ,(reg, res) => {
     res.send("hello from Node API server Updated");
 });
 
-mongoose.connect("mongodb+srv://tw773029:Trader123@@@backend.hqs2zcs.mongodb.net/?retryWrites=true&w=majority&appName=Backend")
+mongoose.connect("mongodb+srv://tw773029:3Tg1F1NLgTLHpNVP@backend.dqt1ppr.mongodb.net/?retryWrites=true&w=majority&appName=backend")
 .then(() =>{
     console.log("connected to the database!");
 })
