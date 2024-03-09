@@ -15,5 +15,12 @@ const ProductSchema = mongoose.Schema({
         type: Number,
         required: true,
         default: 0
+    },
+},
+    {
+        timestamps: true
     }
-});
+);
+
+const Product = mangoose.model("Product",ProductSchema);
+module.exports = Product;
